@@ -17,6 +17,8 @@ There are a number of improvements that could be made to this implementation inc
 * serializing tree to a format that would allow us to flush the tree to disk and load it again so that we don't have to 
 rebuild it each time we run it 
 * implement unit tests for all functions
+* refactor tree data structure to use singly linked lists instead of dictionaries
+* implement fuzzy search matching
  
 ### Setup
 
